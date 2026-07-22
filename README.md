@@ -174,7 +174,7 @@ App: `http://localhost:5173` (or the port Vite prints)
 server/src/
 ├── app.ts
 ├── config/db.ts
-├── controllers/productsControler.ts
+├── controllers/productsController.ts
 ├── middleware/validate.ts
 ├── models/Product.ts
 ├── routes/products.ts

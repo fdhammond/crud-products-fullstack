@@ -1,7 +1,7 @@
 import { Router } from "express";
 import express from "express";
 import { validate } from "../middleware/validate.js";
-import { createProduct, deleteProduct, getProductById, getProducts, updateProduct } from "../controllers/productsControler.js";
+import { createProduct, deleteProduct, getProductById, getProducts, updateProduct } from "../controllers/productsController.js";
 import { createProductSchema, updateProductSchema } from "../schemas/productSchema.js";
 
 const router: Router = express.Router();
