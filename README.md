@@ -10,6 +10,8 @@ The goal was not only to “finish a CRUD”, but to practice **real app structu
 
 [Watch the walkthrough on YouTube](https://youtu.be/fjAXo9T9ddE)
 
+![Products catalog — list view](./docs/screenshot.png)
+
 ---
 
 ## Why this project
