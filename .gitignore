@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+.ENV
+**/.env
+**/.ENV
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / output
+dist/
+build/
+**/dist/
+**/build/
+.turbo/
+.cache/
+*.tsbuildinfo
+
+# Coverage / tests
+coverage/
+.nyc_output/
+
+# Misc
+*.local
+.temp/
+.tmp/
+
+# Optional: package manager store (si aparece en el proyecto)
+.pnpm-store/
